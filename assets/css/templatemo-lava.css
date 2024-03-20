@@ -660,6 +660,7 @@ welcome
   background-image: url(../images/banner-bg.png);
   background-repeat: no-repeat;
   background-position: right top;
+  background-size: contain; /* Scale the image to be as large as possible without cropping */
 }
 
 .welcome-area .header-text .left-text {
